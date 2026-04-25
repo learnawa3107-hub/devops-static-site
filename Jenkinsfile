@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION     = 'us-east-1'
-        AWS_ACCOUNT_ID = 'YOUR_ACCOUNT_ID'
+        AWS_ACCOUNT_ID = '234201875500'
         ECR_REPO       = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/devops-static-site"
         IMAGE_TAG      = "${BUILD_NUMBER}"
         ECS_CLUSTER    = 'devops-cluster'
