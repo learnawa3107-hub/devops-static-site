@@ -7,7 +7,7 @@ pipeline {
         ECR_REPO       = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/devops-static-site"
         IMAGE_TAG      = "${BUILD_NUMBER}"
         ECS_CLUSTER    = 'devops-cluster'
-        ECS_SERVICE    = 'devops-service'
+        ECS_SERVICE    = 'devops-task-service-7is00v4b'
     }
 
     stages {
